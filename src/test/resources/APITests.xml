@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="API" junit="true">
+        <classes>
+            <class name="com.api.json.GetTest"/>
+            <class name="com.api.json.PostTest"/>
+            <class name="com.api.json.PUTTest"/>
+            <class name="com.api.json.DeleteTest"/>
+        </classes>
+    </test>
+</suite>
